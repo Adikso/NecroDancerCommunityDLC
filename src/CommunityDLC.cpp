@@ -1,6 +1,11 @@
 #include <iostream>
+#include "base/BaseHooks.hpp"
+#include "map/MapHooks.hpp"
 #include "CommunityDLC.hpp"
 
 void setup() {
-    std::cout << "Hooked into game" << std::endl;
+    std::cout << "Crypt of the NecroDancer Community Mod" << std::endl;
+
+    MapHooks::setup();
+    BaseHooks::setup();
 }
