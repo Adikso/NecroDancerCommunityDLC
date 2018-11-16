@@ -8,6 +8,6 @@ add_library(communitydlc SHARED src/library.cpp src/CommunityDLC.cpp include/map
 
         src/utils/Memory.cpp
         include/utils/Memory.hpp
-        src/utils/Hook.cpp include/map/Lobby.hpp src/map/Lobby.cpp include/base/BaseHooks.hpp src/base/BaseHooks.cpp)
+        src/utils/Hook.cpp include/map/Lobby.hpp src/map/Lobby.cpp include/base/BaseHooks.hpp src/base/BaseHooks.cpp include/map/LevelGenerator.hpp src/map/LevelGenerator.cpp)
 target_include_directories(communitydlc PUBLIC include)
 target_include_directories(communitydlc PUBLIC game/headers)
